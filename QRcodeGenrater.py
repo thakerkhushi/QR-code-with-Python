@@ -7,7 +7,7 @@ qr = qrcode.QRCode(
     border=5
 )
 
-data = "https://zoophlist.wordpress.com/"
+data = "https://github.com/thakerkhushi"
 
 qr.add_data(data)
 qr.make(fit=True)
